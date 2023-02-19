@@ -1,0 +1,184 @@
+/*------------------------------------------------------------*/
+/*BASIC SETUP*/
+/*------------------------------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #FEF0E5;
+    color: #212333;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+} 
+/*------------------------------------------------------------*/
+/*REUSABE COMPONENTS*/
+/*------------------------------------------------------------*/
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.aln{
+    height: 80px;
+    width: auto;
+    float: left;
+    margin-top: 68px;
+    margin-left: 15px;
+    letter-spacing: 1px;
+}
+
+.img{
+   margin-left: 650px;
+   margin-top: -44px;	
+}
+.lot{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}p{
+    font-size: 16px;
+    font-weight: lighter;
+}
+/*------------------------------------------------------------*/
+/*HEADER*/
+/*------------------------------------------------------------*/
+header{
+    background-size: cover;
+    background-position: center;
+    
+}
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+h1{
+    
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 240%;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    
+    
+}
+/*------------------------------------------------------------*/
+/*NAV*/
+/*------------------------------------------------------------*/
+.logo{
+    height: 80px;
+    width: auto;
+    float: left;
+    margin-top: 45px;
+}
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 45px;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 0px;
+   
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    display: inline-block;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #455A64;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.4s;
+    padding: 8px 0px;
+
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+
+    color: #e67e22;
+    border-bottom: 1px solid #e67e22;
+
+
+}
+/*------------BUTTONS-------------*/
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.4s,border 0.4s,color 0.2s;
+    margin-right: 15px;
+    margin-top: 40px;
+}
+.btn-full:link,
+.btn-full:visited{
+    background-color: #263238;
+    border: 1px solid #263238;
+    color: #fff;
+}
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #263238;
+    color: #263238;
+}
+.btn:hover,
+.btn:active{
+    background-color: #FFBE1C;
+    border: none;
+}
+.btn-ghost:hover,
+.btn-ghost:active{
+    background-color: #FFBE1C;
+    color: #fff;
+}
+.herotext{
+    line-height: 171%;
+    font-weight: thin;
+    margin-top: 26px;
+}
+button{
+    margin-top: 30px;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 14px 18px;
+    color: #fff;
+    background-color: #263238;
+    height: 48px;
+}
+button:hover{
+    background-color: #FFBE1C;
+    box-shadow: 0 0 2em #eb9018;
+}
+.teal{
+    background-color: transparent;
+    color: #212333;
+    border: 1px solid #263238;
+
+}
